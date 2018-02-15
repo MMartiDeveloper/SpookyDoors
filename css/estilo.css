@@ -1,0 +1,33 @@
+body{
+  background-color: black;
+}
+
+h1, p{
+  color: red;
+}
+
+#doors{
+    text-align: center;
+}
+
+#scoreboard{
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    text-align: center;
+}
+
+.door{
+  margin: 50px;
+}
+
+.screamer {
+  height: 100%;
+  position: fixed;
+  display: none;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}

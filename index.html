@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Spooky Doors</title>
+    <link rel="stylesheet" href="./css/ui.css">
+    <link id="linkcss" href="css/estilo.css" rel="stylesheet" type="text/css">
+    <script src="./js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="./js/jquery.blink.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type = "text/javascript" src="js/doorEvents.js"></script>
+    <script type = "text/javascript" src="js/doorTransition.js"></script>
+    <script type = "text/javascript" src="js/soundTrigger.js"></script>
+    <script type = "text/javascript" src="js/funAdministrator.js"></script>
+    <script type = "text/javascript" src="js/screamerAdministrator.js"></script>
+    <script type = "text/javascript" src="js/roomAdministrator.js"></script>
+    <script type = "text/javascript" src="js/gameoverAdministrator.js"></script>
+    <script>
+      $( function() {
+        $( "img" ).tooltip();
+      } );
+  </script>
+  </head>
+  <body>
+    <h1 id="roomCounter">Lobby<h1>
+    <img class="screamer" id="imgScreamer" src=""></img>
+    <video class="screamer" id="videoScreamer">
+      <source src="" type="video/ogg">  
+      SOMEBODY TOUCHA MY SPAGHET!</video>
+      <div class="screamer" id="scoreboard"><p>SCORE BOARD</p></div>
+    <div id="doors">
+      <img class="door" id="firstDoor" title="Seems that there is a lost person in the room" src="img/doors/doorClosed.png"></img>
+      <img class="door" id="secondDoor" title="There is a painting on the wall:'Don't let your friends hanging'" src="img/doors/doorClosed.png"></img>
+      <img class="door" id="thirdDoor" title=".........wryyyyy..." src="img/doors/doorClosed.png"></img>
+    </div>
+  </body>
+</html>
